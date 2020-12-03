@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Slabo 27px', serif;
+}
+body{
+	box-sizing:border-box;
+}
+nav{
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(14, 10, 10, 0.932);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    position:fixed;
+}
+.logo{
+    display: flex;
+    width:30%;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+.logo label a{
+	color:white;
+	text-decoration:none;
+}
+.tog_btn{
+	display:none;
+}
+input[type = "checkbox"]{
+	display:none;
+}
+.tog_btn #btn{
+	width:15px;
+	height:1px;
+	background-color:white;
+	border:1px solid black;
+	display:block;
+	margin-bottom:2px;
+}
+.navigators{
+	width:200px;
+	margin-right:20px;
+}
+.navigators ul{
+	display:flex;
+	justify-content:space-around;
+}
+.navigators ul li{
+	list-style:none;
+}
+.navigators ul li a{
+	text-decoration:none;
+	color:white;
+}
+.navigators{
+	width:450px;
+	font-size:25px;
+}

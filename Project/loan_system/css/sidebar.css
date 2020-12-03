@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Slabo 27px', serif;
+}
+body{
+	box-sizing:border-box;
+}
+.side_list{
+	width:150px;
+	height:100vh;
+	background-color:black;
+	position:fixed;
+	top:50px;
+	left:0px;
+	display:flex;
+	justify-content:center;
+}
+.side_list ul li{
+	padding:20px 20px;
+	margin-bottom:5px;
+	background-color:rgba(14, 10, 10, 0.932);
+}
+.side_list ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:19px;
+	font-family: 'Slabo 27px', serif;
+}
+.side_list ul li:hover{
+	background-color:grey;
+}
